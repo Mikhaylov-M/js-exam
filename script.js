@@ -40,7 +40,7 @@ const sumOfElements = (arr) => {
     let sum = 0
     for (let i = 0; i < arr.length; i++) {
         for (let j = 0; j < arr[i].length; j++) {
-            sum = sum + Number(arr[i][j])
+            sum += Number(arr[i][j])
         }
         newArr = newArr.concat(sum)
         sum = 0
